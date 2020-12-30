@@ -1,0 +1,2 @@
+# SimpleAuto
+SimpleAutomator - Python app

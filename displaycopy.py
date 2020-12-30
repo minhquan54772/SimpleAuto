@@ -127,7 +127,7 @@ while True:
             [sg.Text('Choose process you want to automate:')],
             [sg.InputText(process, key='process'), sg.FileBrowse()],
             [sg.Text('Number of Steps:'), sg.InputText(default_text='{}'.format(steps), key='_Steps_', size=(5, 1)),
-             sg.Button('Start',disabled=True, button_color=('red', 'green'),key='Start')],
+             sg.Button('Start', button_color=('red', 'green'),key='Start')],
             [sg.Column(col, scrollable=True, vertical_scroll_only=True, size=window_size)],
         ]
         window.close()

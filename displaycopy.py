@@ -117,11 +117,7 @@ while True:
         global steps
         steps = int(values['_Steps_'])
         col = [[sg.Text("Choose type of action:"),
-<<<<<<< HEAD
-                sg.Combo(('Mouse click', 'Keyboard','No Actiond'), readonly=True, default_value="No Action", key='{}'.format(i)),
-=======
                 sg.Combo(('Mouse click', 'Keyboard','No Action'), readonly=True, default_value="No Action", key='{}'.format(i)),
->>>>>>> ac86b064768545d6047a7a7b6e524ba27e273f18
                 sg.Button('Get', key="get{}".format(i)),
                 sg.Text('-', size=(30, 1), key='_STATE_{}_'.format(i))] for i in range(steps)]
         layout = [
